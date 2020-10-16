@@ -1,0 +1,96 @@
+ nav{
+    background-color: #EF9422!important;
+    color: #ffffff;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    min-height: 20px;
+}
+.navbar-nav{
+    min-height: 50%;
+}
+
+nav a{
+    color: #ffffff;
+}
+
+nav p{
+    font-size: medium;
+    
+}
+
+.form-group{
+    min-width: 100%;
+}
+
+
+
+.container{
+    overflow: scroll;
+}
+
+
+.container p{
+    font-size: x-large;
+    color: #EF9422;
+}
+
+.fa-times{
+    color:#ffffff;
+}
+
+.container{
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+input[name=retype]{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 5px solid #EF9422 ;
+    width: 100%;
+}
+
+input[name=signature]{
+    border: 5px solid #EF9422 ;
+    min-width: 60%;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+input[name=imageUpload]{
+    display:None
+}
+
+.signatureInput{
+    margin-right: 1%;
+}
+.modal-body{
+    border: 2px solid black;
+
+}
+
+.modal-content{
+    padding: 2%;
+}
+.btn-secondary{
+    background-color: #EF9422 !important;
+    border: none !important ;
+    padding: 10px !important;
+    border-radius: 20px;
+}
+.form-group  .btn-secondary{
+    padding: 15px !important;
+    border-radius: 25px;
+    min-width:  20%;
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.5;
+}
+.form-group  .btn-secondary:hover{
+    opacity: 1;
+}
+.alert-danger{
+    display: None;
+}
